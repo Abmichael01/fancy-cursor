@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+    height: 100vh;
+    
+}
+
+.cursor{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: .15s linear;
+    z-index: 999;
+}
+
+.sub-cursor{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: 2s ease linear;
+    transition-delay: .5s;
+    z-index: 999;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.button:hover{
+    
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.button:nth-child(1){
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.button:nth-child(2){
+    background: #f85032;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.button:nth-child(3){
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #52c234, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #52c234, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.button:nth-child(4){
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
