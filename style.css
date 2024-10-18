@@ -30,7 +30,7 @@ body{
 
 .sub-cursor{
     width: 15px;
-    height: 15px;
+    height: 15px; 
     border-radius: 15px;
     background: #fff;
     position: fixed;
